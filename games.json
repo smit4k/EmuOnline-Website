@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Pokemon Gold",
+        "file": "pokemongold.html"
+    },
+    {
+        "name": "Pokemon Silver",
+        "file": "pokemonsilver.html"
+    },
+    {
+        "name": "Pokemon Crystal",
+        "file": "pokemoncrystal.html"
+    },
+    {
+        "name": "Pokemon Ruby",
+        "file": "pokemonruby.html"
+    },
+    {
+        "name": "Pokemon Sapphire",
+        "file": "pokemonsapphire.html"
+    },
+    {
+        "name": "Pokemon Emerald",
+        "file": "pokemonemerald.html"
+    },
+    {
+        "name": "Pokemon FireRed",
+        "file": "pokemonfirered.html"
+    },
+    {
+        "name": "Pokemon LeafGreen",
+        "file": "pokemonleafgreen.html"
+    }
+]
+

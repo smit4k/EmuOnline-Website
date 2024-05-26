@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<title>EmuOnline</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="script.js"></script>
+
+<body>
+  <!-- Sidebar -->
+  <!-- Old Code -->
+  <!-- <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%">
+            <h3 class="w3-bar-item">Games</h3>
+            <input type="text" class="w3-input" placeholder="Search games...">
+            <a href="pokemonruby.html" class="w3-bar-item w3-button">Pokemon Ruby</a>
+            <a href="pokemonsapphire.html" class="w3-bar-item w3-button">Pokemon Sapphire</a>
+            <a href="pokemonemerald.html" class="w3-bar-item w3-button">Pokemon Emerald</a>
+            <a href="pokemonfirered.html" class="w3-bar-item w3-button">Pokemon FireRed</a>
+            <a href="pokemonleafgreen.html" class="w3-bar-item w3-button">Pokemon LeafGreen</a>
+            <a href="#" class="w3-bar-item w3-button">Game 6</a>
+        </div> -->
+  <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%">
+    <h3 class="w3-bar-item">Games</h3>
+    <input type="text" class="w3-input" oninput="updateGameList()    " placeholder="Search games...">
+    <div id="gameList"></div>
+  </div>
+  <!-- Page Content -->
+  <div style="margin-left:15%">
+    <div class="w3-container w3-teal">
+      <h1>EmuOnline</h1>
+    </div>
+    <div class="w3-container">
+      <h2>What is EmuOnline?</h2>
+      <p>EmuOnline, short for EmulatorOnline is a website where you can emulate old games</p>
+      <p>EmuOnline has a fast & simple user interface, with no ADS!</p>
+      <hr>
+      </hr>
+      <h2>Changelog • 5/25/2024</h2>
+      <li>Added GameBoy Color games</li>
+      <li>EmuOnline is on GitHub now!</li>
+      <hr>
+      </hr>
+      <h2>Known bugs</h2>
+      <p>Search does not work on all pages</p>
+      <hr>
+      </hr>
+      <h2>Powered by EmulatorJS</h2>
+      <p>EmuOnline uses EmulatorJS to run all of our games.</p>
+      <p>Features included:</p>
+      <li>Fast load times</li>
+      <li>Customizable controls</li>
+      <li>Import/Export save states</li>
+      <li>Fastforward</li>
+      <li>Shaders</li>
+      <li>Run cheats</li>
+    </div>
+  </div>
+</body>
+
+</html>
