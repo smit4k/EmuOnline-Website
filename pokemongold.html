@@ -11,15 +11,7 @@
 
     <h3 class="w3-bar-item">Games</h3>
     <input type="text" class="w3-input" placeholder="Search games...">
-    <a href="pokemongold.html" class="w3-bar-item w3-button">Pokemon Gold</a>
-    <a href="pokemonsilver.html" class="w3-bar-item w3-button">Pokemon Silver</a>
-    <a href="pokemoncrystal.html" class="w3-bar-item w3-button">Pokemon Crystal</a>
-    <a href="pokemonruby.html" class="w3-bar-item w3-button">Pokemon Ruby</a>
-    <a href="pokemonsapphire.html" class="w3-bar-item w3-button">Pokemon Sapphire</a>
-    <a href="pokemonemerald.html" class="w3-bar-item w3-button">Pokemon Emerald</a>
-    <a href="pokemonfirered.html" class="w3-bar-item w3-button">Pokemon FireRed</a>
-    <a href="pokemonleafgreen.html" class="w3-bar-item w3-button">Pokemon LeafGreen</a>
-    <a href="#" class="w3-bar-item w3-button"></a>
+    <div id="gameList"></div>
   </div>
 
   <style>
@@ -53,11 +45,35 @@
       EJS_biosUrl = "bios/gbc_bios.bin";
     </script>
     <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
-    <div class="icon">!</div>
-    <div class="info">Click START GAME to play.<p>Click the cogwheel on the right to access settings.</p>
+    <div class="info">Click START GAME to play.
+      <p>Click the cogwheel on the right to access settings.</p>
       <p>Customize your controls by clicking the controller icon.</p>
       <p>You can save by clicking the floppy disk icon, and load the save by clicking the folder icon.</p>
     </div>
+
+    <script>
+      // Function to fetch and load games.json
+      async function loadGames() {
+        try {
+          const response = await fetch('games.json');
+          const games = await response.json();
+          const gameList = document.getElementById('gameList');
+
+          games.forEach(game => {
+            const gameLink = document.createElement('a');
+            gameLink.href = game.file;
+            gameLink.className = 'w3-bar-item w3-button';
+            gameLink.textContent = game.name;
+            gameList.appendChild(gameLink);
+          });
+        } catch (error) {
+          console.error('Error loading games:', error);
+        }
+      }
+
+      // Call the function to load games on page load
+      window.onload = loadGames;
+    </script>
 </body>
 
 </html>
