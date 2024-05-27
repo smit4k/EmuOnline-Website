@@ -30,6 +30,18 @@
     {
         "name": "Pokemon LeafGreen",
         "file": "pokemonleafgreen.html"
+    },
+    {
+        "name": "Pokemon Diamond",
+        "file": "pokemondiamond.html"
+    },
+    {
+        "name": "Pokemon Pearl",
+        "file": "pokemonpearl.html"
+    },
+    {
+        "name": "Pokemon Platinum",
+        "file": "pokemonplatinum.html"
     }
 ]
 

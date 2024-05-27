@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<title>EmuOnline</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+  <!-- Sidebar -->
+  <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%">
+
+    <h3 class="w3-bar-item">Games</h3>
+    <input type="text" class="w3-input" placeholder="Search games...">
+    <div id="gameList"></div>
+  </div>
+
+  <style>
+    .info {
+      display: none;
+    }
+
+    .icon:hover~.info {
+      display: block;
+    }
+  </style>
+
+  <!-- Page Content -->
+  <div style="margin-left:15%">
+    <div class="w3-container w3-teal">
+      <h1>EmuOnline</h1>
+    </div>
+
+    <h3>Pokemon Platinum</h3>
+
+    <div style="width:100%;height:600px;max-width:100%">
+      <div id="game"></div>
+    </div>
+    <script>
+      EJS_player = "#game";
+      EJS_core = "nds";
+      EJS_gameName = "Pokemon Platinum";
+      EJS_color = "#2873c3";
+      EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+      EJS_gameUrl = "roms/Pokemon-Platinum(Rev1).nds";
+      EJS_biosUrl = "bios/ndsfirmware.bin";
+    </script>
+    <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+    <div class="icon">!</div>
+    <div class="info">Click START GAME to play.
+      <p>Click the cogwheel on the right to access settings.</p>
+      <p>Customize your controls by clicking the controller icon.</p>
+      <p>You can save by clicking the floppy disk icon, and load the save by clicking the folder icon.</p>
+    </div>
+
+    <script>
+      // Function to fetch and load games.json
+      async function loadGames() {
+        try {
+          const response = await fetch('games.json');
+          const games = await response.json();
+          const gameList = document.getElementById('gameList');
+
+          games.forEach(game => {
+            const gameLink = document.createElement('a');
+            gameLink.href = game.file;
+            gameLink.className = 'w3-bar-item w3-button';
+            gameLink.textContent = game.name;
+            gameList.appendChild(gameLink);
+          });
+        } catch (error) {
+          console.error('Error loading games:', error);
+        }
+      }
+
+      // Call the function to load games on page load
+      window.onload = loadGames;
+    </script>
+</body>
+
+</html>
