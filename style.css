@@ -458,11 +458,16 @@ a {
 }
 
 .w3-input {
-  padding: 8px;
-  display: block;
-  border: none;
-  border-bottom: 1px solid #ccc;
-  width: 100%
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: #2873c3;
+  margin-left: 5px;
+  width: 95%
 }
 
 .w3-select {
