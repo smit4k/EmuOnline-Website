@@ -42,6 +42,14 @@
     {
         "name": "Pokemon Platinum",
         "file": "pokemonplatinum.html"
+    },
+    {
+        "name": "Pokemon HeartGold",
+        "file": "pokemonheartgold.html"
+    },
+    {
+        "name": "Pokemon SoulSilver",
+        "file": "pokemonsoulsilver.html"
     }
 ]
 
