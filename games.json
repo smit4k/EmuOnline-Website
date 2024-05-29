@@ -50,6 +50,14 @@
     {
         "name": "Pokemon SoulSilver",
         "file": "pokemonsoulsilver.html"
+    },
+    {
+        "name": "Pokemon White",
+        "file": "pokemonwhite.html"
+    },
+    {
+        "name": "Pokemon Black",
+        "file": "pokemonblack.html"
     }
 ]
 
