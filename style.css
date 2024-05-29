@@ -67,7 +67,8 @@ a {
 
 a:active,
 a:hover {
-  outline-width: 0
+  outline-width: 0;
+  background-color: #C4EFF4; 
 }
 
 abbr[title] {
