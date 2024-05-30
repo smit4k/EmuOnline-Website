@@ -1,63 +1,70 @@
 [
-    {
-        "name": "Pokemon Gold",
-        "file": "pokemongold.html"
-    },
-    {
-        "name": "Pokemon Silver",
-        "file": "pokemonsilver.html"
-    },
-    {
-        "name": "Pokemon Crystal",
-        "file": "pokemoncrystal.html"
-    },
-    {
-        "name": "Pokemon Ruby",
-        "file": "pokemonruby.html"
-    },
-    {
-        "name": "Pokemon Sapphire",
-        "file": "pokemonsapphire.html"
-    },
-    {
-        "name": "Pokemon Emerald",
-        "file": "pokemonemerald.html"
-    },
-    {
-        "name": "Pokemon FireRed",
-        "file": "pokemonfirered.html"
-    },
-    {
-        "name": "Pokemon LeafGreen",
-        "file": "pokemonleafgreen.html"
-    },
-    {
-        "name": "Pokemon Diamond",
-        "file": "pokemondiamond.html"
-    },
-    {
-        "name": "Pokemon Pearl",
-        "file": "pokemonpearl.html"
-    },
-    {
-        "name": "Pokemon Platinum",
-        "file": "pokemonplatinum.html"
-    },
-    {
-        "name": "Pokemon HeartGold",
-        "file": "pokemonheartgold.html"
-    },
-    {
-        "name": "Pokemon SoulSilver",
-        "file": "pokemonsoulsilver.html"
-    },
-    {
-        "name": "Pokemon White",
-        "file": "pokemonwhite.html"
-    },
-    {
-        "name": "Pokemon Black",
-        "file": "pokemonblack.html"
-    }
+  {
+    "name": "Pokemon Gold",
+    "file": "pokemongold.html"
+  },
+  {
+    "name": "Pokemon Silver",
+    "file": "pokemonsilver.html"
+  },
+  {
+    "name": "Pokemon Crystal",
+    "file": "pokemoncrystal.html"
+  },
+  {
+    "name": "Pokemon Ruby",
+    "file": "pokemonruby.html"
+  },
+  {
+    "name": "Pokemon Sapphire",
+    "file": "pokemonsapphire.html"
+  },
+  {
+    "name": "Pokemon Emerald",
+    "file": "pokemonemerald.html"
+  },
+  {
+    "name": "Pokemon FireRed",
+    "file": "pokemonfirered.html"
+  },
+  {
+    "name": "Pokemon LeafGreen",
+    "file": "pokemonleafgreen.html"
+  },
+  {
+    "name": "Pokemon Diamond",
+    "file": "pokemondiamond.html"
+  },
+  {
+    "name": "Pokemon Pearl",
+    "file": "pokemonpearl.html"
+  },
+  {
+    "name": "Pokemon Platinum",
+    "file": "pokemonplatinum.html"
+  },
+  {
+    "name": "Pokemon HeartGold",
+    "file": "pokemonheartgold.html"
+  },
+  {
+    "name": "Pokemon SoulSilver",
+    "file": "pokemonsoulsilver.html"
+  },
+  {
+    "name": "Pokemon White",
+    "file": "pokemonwhite.html"
+  },
+  {
+    "name": "Pokemon Black",
+    "file": "pokemonblack.html"
+  },
+  {
+    "name": "Pokemon White 2",
+    "file": "pokemonwhite2.html"
+  },
+  {
+    "name": "Pokemon Black 2",
+    "file": "pokemonblack2.html"
+  }
 ]
-
