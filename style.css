@@ -67,7 +67,7 @@ a {
 
 a:active,
 a:hover {
-  padding: 3px;
+  border-radius: 5px;
   outline-width: 4;
   background-color: #C4EFF4; 
 }
