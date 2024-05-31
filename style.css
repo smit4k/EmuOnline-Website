@@ -1505,6 +1505,7 @@ a {
 }
 
 .w3-button:hover {
+  border-radius: 12px;
   color: #474747 !important;
   background-color: #ccc !important
 }
