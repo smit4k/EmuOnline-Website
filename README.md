@@ -9,3 +9,7 @@
 
 this is where the sidebar gets its elements from.
 to add a game to the sidebar, add a name and a file to games.json
+
+## About PRs
+
+PRs are not welcomed, you're welcome to use the project however!
