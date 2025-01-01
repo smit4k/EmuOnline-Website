@@ -1,5 +1,5 @@
 # About this project
-I originally made this project as a passion project and when my Computer Science course had us work on a programming project, I shifted more of my attention to this project and added more features (like DS support)! I may come back to this project later to fix up some things, but it is unlikely.
+I originally made this project as a passion project and when my Computer Science course had us work on a programming project, I shifted more of my attention to this project and added more features (like DS support)! I will come back to this project to fix up some things, as well as add better documentation.
 
 ## Missing folders?
 
