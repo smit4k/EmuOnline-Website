@@ -6,7 +6,7 @@ I originally made this project as a passion project and when my Computer Science
 - You need to have a folder named ```bios``` that contains the console bios
 - You need to have a folder named ```roms``` that contain the roms to the games
 
-## Sample Documentation is in pokemoncrystal.html
+## Sample Documentation is in pokemoncrystal.html WILL FIX LATER
 
 ## games.json
 
